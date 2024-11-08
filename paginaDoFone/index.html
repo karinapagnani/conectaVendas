@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p id="nome"> <span>Conecta</span>Vendas</p>
+        <div class="cabe">
+            <nav class="menu">
+                <a href="">Home</a>
+                <a href="">Quem somos</a>
+                <a href="">Lojas</a>
+            </nav>
+            <button class="login"><img src="img/do-utilizador.png" alt=""></button>
+            <button class="carrinho"><img src="img/carrinhosem.png" alt=""></button>
+            <label for="">0</label>
+            <a class="contato">contato</a>
+        </div>  
+    </header>
+    <main>
+        <p class="caminho">Home  >  Promoção  >  Headphone Bluetooth</p>
+        <section id="produtinho">
+            <div class="tudoProduto">
+                <div class="ftGrande">
+                    <img class="fotoFone" id="foto ativa" src="img/fonePrin.png" alt="foto principal do produto" >
+                </div>
+                <div class="infosProduto">
+                    <p class="vendedor">Vendido por: <span id="vend">Lorem ipsum</span></p>
+                    <h2 class="desc">Headphone Bluetooth Recarregável P9  <br>Air Top Casual Esportivo</h2>
+                    <div class="ava">
+                        <img class="estrelinha" src="img/estrelinhaDark.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaDark.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaDark.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaDark.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaNegativa.png" alt="">
+                        <h4>4.0</h4>
+                    </div>
+                    <div class="quantidade">
+                        <h3>R$50,00</h3> 
+                        <p class="quantidadinha">Quantidade:</p>
+                        <select name="quant" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select> 
+                        </div>
+                        <div class="buy">
+                            <button class="comprar" type="onclick">COMPRAR</button>
+                            <button class="add" type="onclick">Adicionar ao carrinho <img src="img/carrinhobt.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tipos"> 
+            <p class="cor">Cor: </p>
+                    <div class="variacoes">
+                        <div class="fone">
+                            <img src="img/foneBranco.png" alt="">
+                        </div>
+                        <div class="fone">
+                            <img src="img/foneVerde.png" alt="">
+                        </div>
+                        <div class="fone">
+                            <img src="img/foneRosa.png" alt="">
+                        </div>
+                        <div class="fone">
+                            <img src="img/fonePreto.png" alt="">
+                        </div>
+                     </div> 
+                    </div>   
+        </section>
+        <section id="resto">
+            <div class="tFinal">
+                <div class="filtro">
+                <div class="opcao active" onclick="activateOpcao(this)">Detalhes</div>
+                <div class="opcao" onclick="activateOpcao(this)">Avaliações</div>
+                </div>
+                 <p class="detalhes">Fones de ouvido Bluetooth combinam áudio de alta fidelidade com Cancelamento Ativo de Ruído líder do setor para oferecer uma experiência auditiva incomparável. Cada parte de seu driver personalizado funciona para produzir som com distorção ultrabaixa em toda a faixa audível.</p>
+                 <h2 class="especificacoes">Especificações</h2>
+                 <p class="tEspecificacoes">Distância de transmissão: <span class="espeCinza" >10m</span> <br>Capacidade da bateria: <span class="espeCinza" >400mAh</span> <br>Sensibilidade: <span class="espeCinza" >105 ± 3db</span> <br>Diâmetro do alto-falante: <span class="espeCinza" >40mm</span> <br>Tempo de carregamento: <span class="espeCinza" >Cerca de 2h</span> <br> Classificação de Sensibilidade: <span class="espeCinza" >105dB</span> <br> Quantidade: <span class="espeCinza" >01</span> <br> Nome do Modelo: <span class="espeCinza" >P9</span> <br> Nr de Homologação: <span class="espeCinza" >01531-22-14323</span> <br> Envio de: <span class="espeCinza" >São Paulo</span></p>
+            </div>
+        </section>
+        <section id="resto2">
+                <div class="cada">
+                    <div class="tCada">
+                    <h2>Seja parte do <br>Conecta<span id="vendas">Vendas</span></h2> 
+                    <h3>cadastre-se como vendedor</h3>
+                </div>
+                <div class="banerzinho">
+                    <img src="img/bannerzinho.png"  class="banner" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="contato"><p class="c">Contato:</p>
+            <p>Telefone: (11) 99999-0000</p>
+            <p>E-mail: conectavendas@gmail.com.br</p>
+        </div>
+     <div class="trabalhe"><p class="c">Trabalhe conosco:</p>
+    <button>Cadastre-se como vendedor</button> </div>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>
+
