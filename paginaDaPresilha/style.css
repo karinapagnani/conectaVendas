@@ -306,3 +306,31 @@ select {
 .buy {
   margin-top: 50px;  
 }
+.estrelas , .usuario{
+    display: flex;
+    margin-bottom: 27px;
+}
+.linha {
+    margin: 40px 0;
+    height: 0.5px;
+    width: 1200px;
+    background-color: #686868;
+}
+.cada p {
+    font-size: 15px;
+    font-family: Inter;
+    width: 1170px;
+}
+#data {
+    margin-top: 50px;
+    margin-bottom: 27px;
+    color: #474747;
+    font-size: 17px;
+}
+.cada {
+    display: flex;
+    flex-direction: column;
+}
+.user {
+    margin-left: 15px;
+}
