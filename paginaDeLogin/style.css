@@ -1,84 +1,94 @@
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     border: 0;
 }
 @font-face {
-    font-family: PoppinsR;
+    font-family: regular;
     src: url(font/Poppins-Regular.ttf);
 }
 @font-face {
-    font-family: PoppinsS;
+    font-family: semi;
     src: url(font/Poppins-SemiBold.ttf);
 }
-h2 {
-    font-family: PoppinsR;
-    color: #8F8F8F;
-    font-size: 17px;
-    font-weight: 200;
-}
-h1 {
-    font-family: PoppinsS;
-    font-size: 25px;
-    text-align: start;
-}
-main {
+main{
     display: flex;
     height: 100%;
-    width: 100%;
-    text-align: start;
+    margin-top: 80px;
 }
-.ladoDaBolinha {
-    background-color: #F8F8F8;
+.bola{
     width: 50%;
+    background-color: #F8F8F8;
+    height: 623px;
     display: grid;
     place-items: center;
+}
+.info{
+display: grid;
+place-items: center;
+display: block;
+padding-left: 62px;
+}
+span{
+    color: #ADADAD;
+    font-weight: 20;
+    font-size: 17px;
+    font-weight: 10;
+    font-family: semi;
+}
+.voltar{
+    display: flex;
+    justify-items: end;
+    font-size: 14px;
+    color: #000000;
+    font-family: regular;
+    padding-left: 300px;
+    margin-bottom: 60px;
+    text-decoration: none;
+}
+.criar {
+    font-size: 14px;
+    color: #797979;
+    font-family: regular;
+    margin-top: 13px;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: semi;
+    padding-right: 300px;
 }
 button{
     width: 480px;
     height: 40px;
-    background-color: #424242;
-    color: white;
     border-radius: 10px;
-    border: solid black 1px;
-    font-size: 16px;
-    margin-top: 30px;
+    background-color: #424242;
+    border: 1px solid black;
+    color: white;
+    font-family: regular;
 }
-.voltar {
-    font-size: 13px;
-    font-family: PoppinsR;
-    color: black;
-    text-align: end;
-    text-decoration: none;
-    margin-bottom: 300px;
-}
-input {
+input{
+    border: 1px solid #DCDCDC;
     width: 480px;
     height: 40px;
     border-radius: 10px;
-    border: solid #DCDCDC 1px;
-    font-size: 15px;
     margin-bottom: 20px;
 }
-::placeholder {
+::placeholder{
     color: #DCDCDC;
-    font-family: PoppinsR;
     padding-left: 15px;
-}
-.areaDePreenchimento {
-    display: grid;
-    place-items: center;
-    align-content: center;
-}
-.criar {
-    font-family: PoppinsR;
-    color: #797979;
     font-size: 15px;
 }
-.linha {
+hr{
+    height: 2px;
+}
+.linha{
+    background-color: black;
     height: 1px;
     width: 280px;
-    background-color: black;
     margin-top: 25px;
-
+}
+.central{
+    display: grid;
+    place-items: center;
 }

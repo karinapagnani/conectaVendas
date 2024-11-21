@@ -334,3 +334,6 @@ select {
 .user {
     margin-left: 15px;
 }
+#primeiro {
+    display: none;
+}
