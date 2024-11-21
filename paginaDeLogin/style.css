@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+@font-face {
+    font-family: PoppinsR;
+    src: url(font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PoppinsS;
+    src: url(font/Poppins-SemiBold.ttf);
+}
+h2 {
+    font-family: PoppinsR;
+    color: #8F8F8F;
+    font-size: 17px;
+    font-weight: 200;
+}
+h1 {
+    font-family: PoppinsS;
+    font-size: 25px;
+    text-align: start;
+}
+main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: start;
+}
+.ladoDaBolinha {
+    background-color: #F8F8F8;
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+button{
+    width: 480px;
+    height: 40px;
+    background-color: #424242;
+    color: white;
+    border-radius: 10px;
+    border: solid black 1px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.voltar {
+    font-size: 13px;
+    font-family: PoppinsR;
+    color: black;
+    text-align: end;
+    text-decoration: none;
+    margin-bottom: 300px;
+}
+input {
+    width: 480px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid #DCDCDC 1px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+::placeholder {
+    color: #DCDCDC;
+    font-family: PoppinsR;
+    padding-left: 15px;
+}
+.areaDePreenchimento {
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+.criar {
+    font-family: PoppinsR;
+    color: #797979;
+    font-size: 15px;
+}
+.linha {
+    height: 1px;
+    width: 280px;
+    background-color: black;
+    margin-top: 25px;
+
+}
