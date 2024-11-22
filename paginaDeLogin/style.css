@@ -14,20 +14,19 @@
 main{
     display: flex;
     height: 100%;
-    margin-top: 80px;
 }
 .bola{
     width: 50%;
     background-color: #F8F8F8;
-    height: 623px;
+    height: 703px;
     display: grid;
     place-items: center;
 }
 .info{
-display: grid;
-place-items: center;
-display: block;
-padding-left: 62px;
+    display: grid;
+    place-items: center;
+    display: block;
+    padding-left: 62px;
 }
 span{
     color: #ADADAD;
@@ -37,13 +36,12 @@ span{
     font-family: semi;
 }
 .voltar{
-    display: flex;
-    justify-items: end;
     font-size: 14px;
     color: #000000;
     font-family: regular;
     padding-left: 300px;
     margin-bottom: 60px;
+    margin-top: 60px;
     text-decoration: none;
 }
 .criar {
